@@ -10,7 +10,3 @@
 // classSize = 7
 // if (classSize
 
-let age = 16;
-     
-(age < 18) ? console.log("too young") (age > 18)console.log("old enough");
-     
