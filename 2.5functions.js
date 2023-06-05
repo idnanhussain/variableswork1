@@ -38,31 +38,31 @@
     // Task 1//
 
     // Arrow function for factorial calculation
-//     const factorial = (n) => {
-//         if (n === 0 || n === 1) {
-//             return 1;
-//         } else {
-//             return n * factorial(n - 1);
-//         }
-//     };
+    const factorial = (n) => {
+        if (n === 0 || n === 1) {
+            return 1;
+        } else {
+            return n * factorial(n - 1);
+        }
+    };
   
-//     // Example usage
-// console.log(factorial(33));
+    // Example usage
+console.log(factorial(33));
     
 
 // task 2// 
-// let orderCount = 0;
+let orderCount = 0;
 
-// const takeOrder = (topping, size) => {
-//   console.log(`Pizza with ${topping} and size ${size}`);
-//   orderCount++;
-// };
+const takeOrder = (topping, size) => {
+  console.log(`Pizza with ${topping} and size ${size}`);
+  orderCount++;
+};
 
-// takeOrder("pineapple", "large");
-// takeOrder("mushroom", "medium");
-// takeOrder("pepperoni", "small");
+takeOrder("pineapple", "large");
+takeOrder("mushroom", "medium");
+takeOrder("pepperoni", "small");
 
-// console.log(`Total orders taken: ${orderCount}`);
+console.log(`Total orders taken: ${orderCount}`);
 
 //Task 3// 
 
@@ -89,4 +89,6 @@ const withdrawCash = (requestedAmount, enteredPin) => {
 withdrawCash(500, "1234"); // Correct PIN and sufficient balance
 withdrawCash(1500, "1234"); // Correct PIN but insufficient balance
 withdrawCash(200, "5678"); // Incorrect PIN
+
+
 
